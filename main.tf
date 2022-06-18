@@ -16,4 +16,5 @@ module "bucket" {
   project_id = "eiq-sandbox"
   prefix     = "cavila"
   name       = "gh-actions-demo"
+  location   = "US"
 }
