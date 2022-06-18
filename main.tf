@@ -11,10 +11,10 @@ terraform {
 provider "google" {}
 
 
-module "bucket" {
-  source     = "./modules/gcs"
-  project_id = "eiq-sandbox"
-  prefix     = "cavila"
-  name       = "gh-actions-demo"
-  location   = "US"
-}
+# module "bucket" {
+#   source     = "./modules/gcs"
+#   project_id = "eiq-sandbox"
+#   prefix     = "cavila"
+#   name       = "gh-actions-demo"
+#   location   = "US"
+# }
